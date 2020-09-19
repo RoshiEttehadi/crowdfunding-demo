@@ -11,7 +11,7 @@ function App() {
         <Nav />
 
         <Switch>
-          <Route path="/projectPage">
+          <Route path="/project">
             <ProjectPage />
           </Route>
           <Route path="/">
@@ -20,7 +20,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-  )
+  );
 }
 
 export default App;
